@@ -46,6 +46,7 @@ Sinta-se à vontade para contribuir com melhorias neste projeto. Caso encontre p
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para mais detalhes.
 
+<<<<<<< HEAD
 
 ______________________________________________________________________________________________________________
 
@@ -99,3 +100,5 @@ Feel free to contribute improvements to this project. If you encounter issues or
 
 This project is licensed under the MIT License. See the LICENSE.md file for more details.
 
+=======
+>>>>>>> 5097478c0222ffe6f826907c4f972b4b07ac4b3b
