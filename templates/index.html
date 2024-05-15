@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Crédito</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Referência para o arquivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Análise de Crédito</h1>
+        <form id="creditForm">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <label for="profissao">Profissão:</label>
+            <input type="text" id="profissao" name="profissao" required>
+
+            <label for="salario">Salário Anual:</label>
+            <input type="number" id="salario" name="salario" required>
+
+            <button type="submit">Analisar</button>
+        </form>
+        <div id="result" class="hidden"></div>
+        <div id="loading" class="hidden">
+            Analisando cliente...
+            <div id="progress">
+                <div id="progressBar"></div> <!-- Barra de progresso -->
+            </div>
+        </div> <!-- Div de animação "Analisando cliente" -->
+    </div>
+
+    <script src="/static/script.js"></script> <!-- Referência para o arquivo JavaScript -->
+</body>
+</html>
